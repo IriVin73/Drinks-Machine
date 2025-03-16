@@ -23,6 +23,7 @@ namespace Drinks_Machine
         public MainWindow()
         {
             InitializeComponent();
+            MainContent.Content = new UCSelection(this);
         }
     }
 }
